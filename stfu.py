@@ -103,3 +103,29 @@ print("VẬN DỤNG------------------")
 print("Hiển thị vận dụng 1 bài 23")
 print()
 
+A = []
+a = int(input("Xác định số phần tử của A: "))
+for i in range(a):
+    n = float(input("Nhập phần tử thứ " + str(i+1) +" : "))
+    if n % 2 == 0:
+        A.insert(-10,n)
+    else:
+        A.append(n)
+
+print(A)
+
+os.system("pause")
+os.system("cls")
+
+print("Hiển thị vận dụng 2 bài 23")
+print()
+
+f = [0,1]
+n = int(input("Nhập giá trị n của dãy số Fibonacci: "))
+for i in range(2,n):
+    x = f[i-1] + f[i-2]
+    f.append(x)
+print(f)
+
+os.system("pause")
+os.system("cls")
